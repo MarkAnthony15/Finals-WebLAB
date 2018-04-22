@@ -1,0 +1,18 @@
+CUSTOMER
+	- Search
+	- Service
+	- Availment
+	- Transaction Monitoring
+
+SERVICE PROVIDER
+	- Post Service
+	- Show Service Requests
+	- Approve/Deny Request
+	- Transaction Monitoring
+
+ADMIN
+	- Registration (AJAX)
+	- Approve/Deny Registration
+	- Transaction Monitoring
+	- User Management
+
