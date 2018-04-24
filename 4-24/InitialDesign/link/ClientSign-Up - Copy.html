@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">CarGet</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Browse</a></li>
+          <li><a href="#">My Rentals</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <form class="form-horizontal" action="" role="form" method="">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>Client Registration</legend>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="firstname">First Name</label>  
+                    <div class="col-md-4">
+                        <input id="firstname" name="firstname" type="text" placeholder="Enter Firstname" class="form-control input-md">
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="lastname">Last Name</label>  
+                    <div class="col-md-4">
+                        <input id="lastname" name="lastname" type="text" placeholder="Enter Lastname" class="form-control input-md">
+                    </div>
+                </div>
+
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Gender</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="radios-0">
+                            <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                            Male
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-1">
+                            <input type="radio" name="radios" id="radios-1" value="2">
+                            Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-2">
+                            <input type="radio" name="radios" id="radios-2" value="3">
+                            Other
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Text Input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="age">Age</label>  
+                    <div class="col-sm-1">
+                        <input id="age" name="age" type="text" class="form-control input-md">
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="mobno">Mobile Number</label>  
+                    <div class="col-md-4">
+                        <input id="mobno" name="mobno" type="text" placeholder="Enter Mobile Number" class="form-control input-md">
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="emailid">Email Address</label>  
+                    <div class="col-md-4">
+                        <input id="emailid" name="emailid" type="text" placeholder="Enter Email Address" class="form-control input-md">
+                    </div>
+                </div>
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="password">Password</label>  
+                    <div class="col-md-4">
+                        <input id="password" name="password" type="password" placeholder="Enter Password" class="form-control input-md">
+                    </div>
+                </div>
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="ReenterPassword">Confirm Password</label>  
+                    <div class="col-md-4">
+                        <input id="ReenterPassword" name="ReenterPassword" type="password" placeholder="Confirm Password" class="form-control input-md">
+                    </div>
+                </div>
+                <!--Checkbox -->
+                 <div class="form-group">
+                    <label class="col-md-4 control-label"></label>  
+                    <div class="col-md-4">
+                        <label>
+                            <input type="checkbox"> I accept <a href="#">Terms and Conditions. </a>
+                        </label>
+                    </div>
+                </div>
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="login"></label>
+                    <div class="col-md-4">
+                        <button id="login" name="login" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
