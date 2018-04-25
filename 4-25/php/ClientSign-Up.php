@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <form role="form" method="" action="#">
+                <form role="form" method="" action="ClientSign-Up.php">
                     <fieldset>
                         <legend>Account Details</legend>
 
