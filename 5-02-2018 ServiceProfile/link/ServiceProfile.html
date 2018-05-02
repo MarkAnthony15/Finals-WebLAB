@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">CarGet</a>
+        </div>
+        <ul class="nav navbar-nav">
+		<li class="dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Garage
+		  <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Honda BVC</a></li>
+				<li><a href="#">Honda Blue XC</a></li>
+			</ul>
+		  </li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Transactions</a></li>
+        </ul>
+      </div>
+    </nav>
+        <fieldset>
+        <!-- Form Name -->
+        <legend id="garage">Garage</legend>
+    </fieldset>
+	<div class="container">
+	<div class="panel panel-default">
+	<div class="panel-heading">
+	<div class="row">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="../images/hondabvc.png" target="_blank">
+          <img src="../images/hondabvc.png" alt="BVC" style="width:100%">
+          </a></div>
+          <div class="caption">
+            <p>Current Rate : 6900 per week</p>
+			<p>Change Rate: </p>
+			<p>Added:</p>
+			<p>Number of Times Rented: </p>
+			  <div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">None
+				<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						</ul>
+			  </div>
+		  </div>
+	  </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="../images/hondabvc.png" target="_blank">
+          <img src="../images/hondaAccord.jpg" alt="accord" style="width:100%">
+          </a></div>
+          <div class="caption">
+            <p>Current Rate : 8900 per week</p>
+			<p>Change Rate: </p>
+			<p>Added:</p>
+			<p>Number of Times Rented: </p>
+			  <div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">None
+				<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						</ul>
+			  </div>
+		  </div>
+	  </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="../images/Vios.png" target="_blank">
+          <img src="../images/Vios.jpg" alt="accord" style="width:100%">
+          </a></div>
+          <div class="caption">
+            <p>Current Rate : 5500 per week</p>
+			<p>Change Rate: </p>
+			<p>Added:</p>
+			<p>Number of Times Rented: </p>
+			  <div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">None
+				<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						</ul>
+			  </div>
+		  </div>
+	  </div>
+    </div>
+    </div>
+    </div>
+	</div>
+    </div>
+	</div>
+		<div class="container">
+		<div class="panel panel-default">
+		<div class="panel-heading">
+			<div class="imgcontainer">
+				<h3><img src="../images/add.png" alt="Avatar" class="avatar">Add Car</h3>
+			</div><br/>
+		  <div class="caption"><br/>
+				<div class="row">
+				<div class="col-sm-4">
+				<div class="form-group">
+					<label for="comment">Car Features:</label>
+				</div>
+			  <div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">None
+				<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Audi</a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						</ul>
+			  </div><br/>
+				<div class="form-group">
+					<label for="comment">Model:</label>
+				</div>
+			  <div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">None
+				<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Asper98</a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						</ul>
+			  </div><br/>
+				<div class="form-group">
+					<label for="comment">Brand</label>
+				</div>
+			  <div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">None
+				<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Honda</a></li>
+						<li><a href="#">Toyota</a></li>
+						<li><a href="#">Kia</a></li>
+						</ul>
+			  </div><br/>
+			    <form>
+					<div class="form-group">
+						<label for="comment">Car Features:</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="optradio">Automatic</label>
+					</div>
+					<div class="radio">
+						<label><input type="radio" name="optradio">Manual</label>
+					</div>
+				</form><br/>
+				</div>
+				<div class="col-sm-7">
+					<div class="form-group">
+						<label for="comment">Upload Picture:</label>
+					</div>
+					<input type="file" id="myFile">
+					<script>
+						function myFunction() {
+						var x = document.getElementById("myFile");
+						}
+					</script>
+				</form><br/>
+				<form>
+					<div class="form-group">
+						<label for="comment">Description:</label>
+						<textarea class="form-control" rows="5" id="comment"></textarea>
+					</div>
+				</form>
+					<button type="button" class="btn btn-default">Add to Garage</button>
+				</div>
+		  </div>
+		</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
