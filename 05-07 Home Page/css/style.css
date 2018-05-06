@@ -1,0 +1,223 @@
+/*general*/
+body{
+	font-family: 'Maven Pro', sans-serif !important;
+}
+
+hr{
+	border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+   color: black;
+}
+
+/*navbar*/
+
+.navbar{	
+	background-color: #2f2f2f;
+	height: 70px;
+	z-index: 150;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #666666;
+}
+
+.navbar-text{
+	padding: 5px 5px;
+	float: right;
+	font-weight: bold;
+}
+
+.nav li{
+	padding: 10px 10px;
+}
+
+.nav > li > a {
+	font-family: 'Maven Pro', sans-serif !important;
+	font-weight: bold;
+	color: #666666;
+}
+
+.nav li a:hover{
+	background-color: rgba(0, 0 ,0, 0.3);
+	color: white;
+}
+
+/*header*/
+
+.header{
+	background: url(../img/header.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	height: 80rem;
+	width: 100%;
+}
+
+.header_text{
+	float: right;
+	bottom: 130px;
+	position: absolute;
+	z-index: 15;
+	color: white;
+	background-color: rgba(80, 80, 80, 0.5);
+	padding: 30px 30px;
+	right: 70px;
+}
+
+#header_title{
+	font-size: 34px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.header_info{
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 6px;
+}
+
+.header_read{
+	color: black;
+	width: 45%;
+	opacity: 0.5;
+	border: none;
+	padding: 6px 6px;
+	font-weight: strong;
+}
+
+.header_right{
+	float: right;
+}
+
+#header_location{
+	width: 100%;
+}
+
+#header_button{
+	border: 5px solid rgba(47, 47, 47, 0.9);
+	background-color: rgba(47, 47, 47, 0.0);
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+}
+
+#header_button:hover{
+	border: 5px solid black;
+	background-color: rgba(20, 20, 20, 0.0);
+	color: white;
+}
+
+/*body*/
+
+.body_container{
+	padding: 30px;
+}
+
+.body_title{
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 15px;
+}
+
+.body_container{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 30px 50px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+
+.body_item{
+	padding: 50px 25px;
+	padding-bottom: 15px;
+	font-size: 17px;
+}
+
+.body_item .body_img{
+	width: 80%;
+}
+
+.body_desc{
+	font-size: 14px;
+}
+
+.body_item .body_read{
+	font-size: 14px;
+	color: black;
+	background-color: #b3b3b3;
+	width: 100%;
+	border: none;
+	padding: 5px 5px;
+}
+
+.body_button{
+	border: 3px solid rgba(47, 47, 47, 0.4);
+	background-color: rgba(0, 0, 0, 0.0);
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(47, 47, 47, 0.4);
+	margin-top: 10px;
+	width: 100%;
+	padding: 5px 5px;
+}
+
+.body_button:hover{
+	border: 3px solid black;
+	color: black;
+}
+
+/*carousel*/
+
+#myCarousel{
+	padding: 20px;
+}
+
+.carousel-indicators{
+	position: relative;
+	top: 10px;
+	margin-right: auto;
+	right: 50%;
+}
+
+.carousel-indicators li{
+	border: 1px black solid;
+}
+
+.carousel-indicators .active{
+	border: 5px black solid;
+}
+
+#carousel_button{
+	border: 6px solid rgba(47, 47, 47, 0.4);
+	background-color: rgba(47, 47, 47, 0.0);
+	width: 20%;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px;	
+}
+
+#carousel_button:hover{
+	border: 6px solid black;
+	color: black;
+}
+
+/*footer*/
+
+.footer{
+	height: 65rem;
+}
+
+.footer_bottom{
+	bottom: 0;
+	padding: 35px;
+}
+
+#footer_link{
+	text-decoration: none;
+	color: black;
+}

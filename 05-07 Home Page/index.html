@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="css/style.css" rel="stylesheet">
+	<title>CAR RENTAL</title>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+		      <li><a href="#">HOME  <i class="fas fa-home"></i></a></li>
+		      <li><a href="#">MY PROFILE   <i class="fas fa-user-alt"></i></a></li>
+		      <li><a href="#">BROWSE   <i class="fas fa-search"></i></a></li>
+		      <li><a href="#">MY RENTALS   <i class="fas fa-car"></i></a></li>
+		      <li><a href="#">FAQ   <i class="fas fa-question-circle"></i></a></li>
+		      <li><a href="#">CONTACT US   <i class="fas fa-phone"></i></a></li>
+		    </ul>
+
+		    <p class="navbar-text">
+		    	LOGGED IN AS MARIA MAKILING
+		    </p>
+		</div>
+	</nav>
+
+	<section class="header">
+		<div class="header_text col-sm-5 col-sm-offset-7">
+			<ul style="list-style-type:none; padding-left:0;">
+				<li id="header_title">RENT A CAR AT LOW PRICES</li>
+
+			    <br/>
+
+			    <li class="header_info">PICK UP LOCATION</li> 
+			    <li><input type="text" 	placeholder="City, State or Airport Code" class="header_read" id="header_location"></li>
+
+			    <br/>
+
+			    <li class="header_info">PICK UP DATE AND TIME</li>
+			    
+			    <li><input type="date" class="header_read"> <input type="time" class="header_read header_right"></li>
+
+			    <br/>
+
+			    <li class="header_info">RETURN DATE AND TIME </li> 
+			    <li><input type="date" class="header_read"> <input type="time" class="header_read header_right"></li>
+
+			    <br/>
+
+			    <li><button id="header_button">GET A QUOTE NOW   <i class="fab fa-telegram-plane"></i></button></li>
+			    
+			</ul>
+		</div>
+	</section>
+
+	<section class="body">
+		<div class="container body_container col-sm-10 col-sm-offset-1">
+			<div class="body_title">	
+				<center>
+					VEHICLES
+				</center>
+			</div>
+
+			<center>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="row">
+								<div class="col-sm-3 body_item">
+									<img src="./img/item1.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item2.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item3.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item5.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-3 body_item">
+									<img src="./img/item2.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item5.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item1.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item3.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-3 body_item">
+									<img src="./img/item2.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item5.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item1.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+
+								<div class="col-sm-3 body_item">
+									<img src="./img/item3.png" class="body_img">
+
+									<br/>
+									<p class="body_desc"><b>SIZE: ECONOMY</b></p>
+									<input type="text" placeholder="CAR MODEL EXAMPLE" class="body_read" readonly>
+									<button class="body_button">RENT CAR</button>
+								</div>
+							</div>
+						</div>
+
+						<ol class="carousel-indicators">
+					    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    	<li data-target="#myCarousel" data-slide-to="1"></li>
+					    	<li data-target="#myCarousel" data-slide-to="2"></li>
+				    	</ol>
+
+				    	<br/>
+
+				    	<button id="carousel_button">VIEW MORE</button>
+					</div>
+				</div>
+			</center>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="footer_bottom col-sm-10 col-sm-offset-1">
+			<hr>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="https://www.facebook.com/aikavien.dayrit" id="footer_link">©  THE CREATOR.2018</a>
+				</div>
+
+				<div class="col-sm-3 col-sm-offset-6">
+					SLU FINAL WEBTECH REQUIREMENT
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
