@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/style.css">
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand active" href="AdminUserList.html">CarGet</a>
+          </div>
+           <ul class="nav navbar-nav navbar-right">
+                <!--<li><a href="ClientSign-Up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+                <li>
+                    <a href="../../index.html">
+                        <span class="glyphicon glyphicon-log-in"></span> Logged out </a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+              <div class="profile-sidebar">
+          <!-- SIDEBAR USERPIC -->
+          <div class="profile-userpic">
+              <img src="../../images/rent-a-car.png" class="img-responsive" alt="">
+          </div>
+          <!-- END SIDEBAR USERPIC -->
+          <!-- SIDEBAR USER TITLE -->
+          <div class="profile-usertitle">
+              <div class="profile-usertitle-name">
+                  Arnel Amayag
+              </div>
+              <div class="profile-usertitle-job">
+                  Admin
+              </div>
+          </div>
+          <!-- END SIDEBAR USER TITLE -->
+          <!-- SIDEBAR MENU -->
+          <div class="profile-usermenu">
+              <ul class="nav">
+                  <li>
+                      <a href="AdminUserList.html">
+                      <i class="glyphicon glyphicon-user"></i>
+                      Client List </a>
+                  </li>
+                  <li>
+                      <a href="AdminUserTransaction.html">
+                      <i class="glyphicon glyphicon-shopping-cart"></i>
+                      Client Transaction </a>
+                  </li>
+                  <li class="active">
+                      <a href="AdminProviderList.html">
+                      <i class="glyphicon glyphicon-user"></i>
+                      Service Provider Member </a>
+                  </li>
+                  <li>
+                      <a href="AdminProviderTransaction.html">
+                      <i class="glyphicon glyphicon-bitcoin"></i>
+                      Service Provider Transaction </a>
+                  </li>
+              </ul>
+          </div>
+          <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-sm-10 text-left"> 
+        <div class="col-md-11" style="margin-top: 50px;">
+            <div class="row content">
+                <div class="panel panel-primary filterable">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Client Transaction<span style="color: white; font-weight: bold;"></span></h3>
+                        </div>
+                        <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <tr class="filters">
+                              <th style="width: 10%">
+                                <input type="text" class="form-control" placeholder="Provider ID" disabled>
+                              </th>
+                              <th style="width: 15%">
+                                <input type="text" class="form-control" placeholder="Owner Name" disabled>
+                              </th>
+                              <th style="width: 15%">
+                                <input type="text" class="form-control" placeholder="Company Name" disabled>
+                              </th>
+                              <th style="width: 15%">
+                                <input type="text" class="form-control" placeholder="Email Address" disabled>
+                              </th>
+                              <th style="width: 10%">
+                                <input type="text" class="form-control" placeholder="Date created" disabled>
+                              </th>
+                              <th style="width: 10%">
+                                <input type="text" class="form-control" placeholder="Status" disabled>
+                              </th>
+                              <th style="width: 20%">
+                                <input type="text" class="form-control" placeholder="Action" disabled>
+                              </th>
+                            </tr>
+                            <tbody class="table table-bordered table-striped">
+                                <tr>
+                                    <td style="width: 10%">00012</td>
+                                    <td style="width: 15%">Mark Anthony Bambico</td>
+                                    <td style="width: 15%">Mark Anthony Car Rental</td>
+                                    <td style="width: 15%">mark@sample.org</td>
+                                    <td style="width: 10%">04/21/2018</td>
+                                    <td style="width: 10%">Member</td>
+                                    <td style="width: 5%">
+                                      <div>
+                                            <button type="button" class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-ok"></span>Accept</button>
+                                            <button type="button" class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-minus"></span>Deny</button>
+                                            <button type="button" class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>              
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
