@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/style.css">
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand active" href="Post.html">CarGet</a>
+          </div>
+           <ul class="nav navbar-nav navbar-right">
+                <!--<li><a href="ClientSign-Up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+                <li>
+                    <a href="../../index.html">
+                        <span class="glyphicon glyphicon-log-in"></span> Logged out </a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+              <div class="profile-sidebar">
+          <!-- SIDEBAR USERPIC -->
+          <div class="profile-userpic">
+              <img src="../../images/rent-a-car.png" class="img-responsive" alt="">
+          </div>
+          <!-- END SIDEBAR USERPIC -->
+          <!-- SIDEBAR USER TITLE -->
+          <div class="profile-usertitle">
+              <div class="profile-usertitle-name">
+                  Arnel Amayag
+              </div>
+              <div class="profile-usertitle-job">
+                  Service Provider
+              </div>
+          </div>
+          <!-- END SIDEBAR USER TITLE -->
+          <!-- SIDEBAR MENU -->
+          <div class="profile-usermenu">
+              <ul class="nav">
+                  <li>
+                      <a href="Post.html">
+                      <i class="glyphicon glyphicon-user"></i>
+                      Post </a>
+                  </li>
+                  <li>
+                      <a href="ServReq.html">
+                      <i class="glyphicon glyphicon-shopping-cart"></i>
+                      Service Request</a>
+                  </li>
+                  <li class="active">
+                      <a href="ServTransaction.html">
+                      <i class="glyphicon glyphicon-bitcoin"></i>
+                      Transaction </a>
+                  </li>              </ul>
+          </div>
+          <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-sm-10 text-left"> 
+        <div class="col-md-10" style="margin-top: 50px;">
+            <div class="row content">
+                <div class="panel panel-primary filterable">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Post Service<span style="color: white; font-weight: bold;"></span></h3>
+                        </div>
+                        <form>
+                        <div class="table-responsive">
+                        <div class="form-group">
+                          <br>
+                          <label class="col-md-4 control-label" for="product_id">Brand</label>  
+                            <div class="col-md-4">
+                             <input id="product_id" name="product_id" placeholder="Brand" class="form-control input-md" required="" type="text">  
+                          </div>
+                          <br>
+                          <br>
+                          <label class="col-md-4 control-label" for="product_id">Model</label>  
+                            <div class="col-md-4">
+                              <input id="product_id" name="product_id" placeholder="Model" class="form-control input-md" required="" type="text">  
+                          </div>
+                          <br>
+                          <br>
+                          <label class="col-md-4 control-label" for="product_id">Price/Hr</label>  
+                            <div class="col-md-4">
+                              <input id="product_id" name="product_id" placeholder="Price/hr" class="form-control input-md" required="" type="text">  
+                          </div>
+                          <br>
+                          <br>
+                          <label class="col-md-4 control-label" for="product_id">Overdue Penaly Amount</label>  
+                          <div class="col-md-4">
+                            <input id="product_id" name="product_id" placeholder="Price/hr" class="form-control input-md" required="" type="text">  
+                          </div>
+                          <br>
+                          <br>
+                          <label class="col-md-4 control-label" for="product_id">Transmission</label>  
+                            <div class="col-md-4">
+                          <select>
+                            <option value="Manual">Manual</option>
+                            <option value="Automatic">Automatic</option>
+                            <option value="Automatic">Manual/Automatic</option>
+                          </select>
+                          </div>
+                          <br>
+                          <br>
+                          <label class="col-md-4 control-label" for="product_id">Contact</label>  
+                          <div class="col-md-4">
+                          <input id="product_id" name="product_id" placeholder="Contact" class="form-control input-md" required="" type="text">  
+                          </div>
+                          <br>
+                          <br>
+                          <div class="form-group">
+                            <label class="col-md-4 control-label" for="product_description">Description</label>
+                            <div class="col-md-4">                     
+                              <textarea class="form-control" id="product_description" name="product_description"></textarea>
+                            </div>
+                          </div>
+                          <br>
+                          <br>
+                          <div class="form-group">
+                            <label class="col-md-4 control-label" for="filebutton">Car Image</label>
+                            <div class="col-md-4">
+                              <input id="filebutton" name="filebutton" class="input-file" type="file">
+                            </div>
+                          </div>
+                          <br>
+                          <br>
+                          <center><input type="checkbox" name="terms" value="Terms" checked> I agree to CarGet <a href="url">Terms &amp; Condition</a><br></center>
+                          <br>
+                          <br>
+                          <div class="form-group">
+                            <center>
+                           
+                              <button style="" id="singlebutton" name="singlebutton" class="btn btn-primary">Send</button>
+                            
+                          </center>
+                          </div>
+                        </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
